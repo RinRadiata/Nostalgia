@@ -105,6 +105,9 @@ public class GalleryMenu : MonoBehaviour
             int index = i + startingIndex;
             Button button = galleryPreviewButtons[i];
 
+            if (button == null)
+                continue; // Skip if button is not assigned (if only have 1 gallery page)
+
             button.onClick.RemoveAllListeners();
 
             if (index >= galleryImages.Length)
@@ -117,6 +120,9 @@ public class GalleryMenu : MonoBehaviour
                 button.transform.parent.gameObject.SetActive(true);
                 RawImage renderer = button.targetGraphic as RawImage;
                 Texture previewImage = galleryImages[index];
+
+                if (renderer == null)
+                    continue; // Skip if renderer is not assigned
 
                 if (GalleryConfig.ImageIsUnlocked(previewImage.name))
                 {
