@@ -1,0 +1,11 @@
+CreateCharacter(Neri -e true), CreateCharacter("Witch as generic" -e true), Witch.SetSprite("Witch")
+
+Witch.Setposition(1.4), Witch.Move(1), Neri.Move(0)
+
+Witch "Good morning child. {a}What brings you to my humble abode?"
+
+Neri "Huh?{a} I'm not a child anymore"
+
+Witch "Righ..right,{a} you just a litte devil."
+
+Neri "Ughhh!"
