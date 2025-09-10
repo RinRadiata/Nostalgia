@@ -464,7 +464,7 @@ namespace COMMANDS
                 character.UnHighlight(immediate: true);
             else
             {
-                CommandManager.instance.AddTerminationActionToCurrentProcess(() => { character?.Highlight(immediate: true); });
+                CommandManager.instance.AddTerminationActionToCurrentProcess(() => { character?.UnHighlight(immediate: true); });
                 yield return character.UnHighlight();
             }
         }
@@ -585,4 +585,5 @@ namespace COMMANDS
         }
         #endregion
     }
+
 }
