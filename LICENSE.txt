@@ -2,8 +2,9 @@ Copyright (c) 2025 [Tran Quoc Tuan / 2311557577]
 
 All rights reserved.
 
-This project and its source code are the intellectual property of the author.
+This project are the intellectual property of the author.
 It is submitted only for academic evaluation purposes at [Nguyen Tat Thanh University].
 
 Redistribution, modification, reproduction, or commercial use of this project 
 without explicit written permission from the author is strictly prohibited.
+
