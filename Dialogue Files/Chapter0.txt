@@ -136,7 +136,7 @@ Rose.Show(), Rose.SetPosition(0.8)
 
 choice "What will you ask Rose?"
 {
-	-Ask about the Garden
+	-Ask about the "Flowering Wave"
 		Nerine.Highlight()
 		Rose.Unhighlight()
 		Nerine "Tell me, Master… why do witches seek the Garden?"
@@ -157,7 +157,7 @@ choice "What will you ask Rose?"
 		Rose.Highlight()
 		Rose "That is what you must discover. {wa 1}The Garden speaks through the flowers blooming within your soul."
 		Load(Chapter_1_1_TheGarden -enqueue true)
-	-Ask about the memory
+	-Ask about the "Memory"
 		Rose.Unhighlight()
 		Nerine "Master, that memory… who was the girl who called me ‘Rin’?"
 		Nerine.Unhighlight()
